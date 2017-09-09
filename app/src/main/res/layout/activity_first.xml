@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.setupwizardlib.SetupWizardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/setup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.meiji.setupwizardDemo.SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/email_login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Quickly copy any Google Accounts, \n backup up apps and data from your \n existing Android device. To copy:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="1. Make sure your other device is on and unlocked."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="2. Briefly place the two devices back-to-back until your hear a tone,then set aside."
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:text="Learn more"
+            android:textAppearance="@style/TextAppearance.AppCompat.Button"
+            android:textColor="@color/suw_color_accent_dark"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</com.android.setupwizardlib.SetupWizardLayout>
