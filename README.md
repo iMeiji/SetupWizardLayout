@@ -1,4 +1,5 @@
 ## SetupWizardLayout
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=21) [![](https://jitpack.io/v/iMeiji/SetupWizardLayout.svg)](https://jitpack.io/#iMeiji/SetupWizardLayout)
 
 SetupWizardLayout is from [AOSP SetupWizard](https://android.googlesource.com/platform/frameworks/opt/setupwizard/)
 
@@ -23,7 +24,7 @@ allprojects {
 Step 2. Add the dependency
 ```
 dependencies {
-    compile 'com.github.User:Repo:Tag'
+    compile 'com.github.iMeiji:SetupWizardLayout:0.1'
 }
 ```
 
@@ -40,9 +41,9 @@ Step 1. Add the JitPack repository to your build file
 Step 2. Add the dependency
 ```
 <dependency>
-    <groupId>com.github.User</groupId>
-    <artifactId>Repo</artifactId>
-    <version>Tag</version>
+    <groupId>com.github.iMeiji</groupId>
+    <artifactId>SetupWizardLayout</artifactId>
+    <version>0.1</version>
 </dependency>
 ```
 
