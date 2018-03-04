@@ -1,1 +1,1 @@
-include ':app', ':setupwizardlib'
+include ':example', ':setupwizardlib'

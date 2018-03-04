@@ -16,7 +16,7 @@ public class SecondActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        layout = (SetupWizardLayout) findViewById(R.id.setup);
+        layout = findViewById(R.id.setup);
 
         layout.setHeaderText("Add your account");
         layout.setIllustrationAspectRatio(4f);

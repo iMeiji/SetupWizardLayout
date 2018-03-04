@@ -20,7 +20,7 @@ public class FirstActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_first);
-        layout = (SetupWizardLayout) findViewById(R.id.setup);
+        layout = findViewById(R.id.setup);
 
         layout.setHeaderText("Tap & Go");
         layout.setIllustration(getResources().getDrawable(R.drawable.bg1));

@@ -26,7 +26,7 @@ public class ThirdActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
-        layout = (SetupWizardListLayout) findViewById(R.id.setup);
+        layout = findViewById(R.id.setup);
 
         ArrayAdapter<Integer> itemsAdapter =
                 new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, items);
